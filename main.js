@@ -114,7 +114,11 @@ function handleFileSelect(input) {
 	const reader = new FileReader()
 	reader.readAsDataURL(input.files[0]);
 	reader.onload = function() {
-		drawSkin(reader.result)
+		const tempimg = new Image()
+		tempimg.src = reader.result
+		tempimg.onload = function() {
+			drawSkin(tempimg)
+		}
 	}
 }
 
