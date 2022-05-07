@@ -164,8 +164,8 @@ function drawSkin(img) {
 		}
 	})
 	zip.file("jollymod/theme/settings.json", `{
-	"doorColor": "#3d7d1e",
-	"doorPreloaderColor": "#d70201",
+	"doorColor": "#893700",
+	"doorPreloaderColor": "#3d7d1e",
 	"doorlogoURL": "https://warzeegg.github.io/mcSkinToJollyMod/grassblock.png"
 }`)
 }
