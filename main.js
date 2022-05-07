@@ -166,8 +166,8 @@ function drawSkin(img) {
 	zip.file("jollymod/theme/settings.json", `{
 	"doorColor": "#3d7d1e",
 	"doorPreloaderColor": "#d70201",
-	"doorlogoURL": "https://warzeegg.github.io/mcSkinToJollyMod/grassblock.png",
-	}`)
+	"doorlogoURL": "https://warzeegg.github.io/mcSkinToJollyMod/grassblock.png"
+}`)
 }
 
 function addCount() {
