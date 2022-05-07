@@ -107,8 +107,8 @@ const added_assets = [
 	"jollymod/vehicles/foddycan/Hammer_20000.png",
 	"jollymod/vehicles/foddycan/Pot0000.png",
 	"jollymod/vehicles/foddycan/Pot_20000.png",
-	"jollymod/vehicles/skateboard/SkateHelmet0000.png",
-	"jollymod/vehicles/dirtbike/DirtBikeHelmet0000.png",
+	//"jollymod/vehicles/skateboard/SkateHelmet0000.png",
+	//"jollymod/vehicles/dirtbike/DirtBikeHelmet0000.png",
 ]
 function handleFileSelect(input) {
 	const reader = new FileReader()
