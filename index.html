@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/2.0.0/FileSaver.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.7.1/jszip.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jszip-utils/0.1.0/jszip-utils.min.js"></script>
+	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+	<link rel="manifest" href="/site.webmanifest">
+	<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+	<meta name="msapplication-TileColor" content="#da532c">
+	<meta name="theme-color" content="#ffffff">
+	<style type="text/css">
+		@font-face {
+			font-family: "Montserrat";
+			src: url("Montserrat-VF.woff2");
+			font-variation-settings: "wght" 800;
+		}
+		body {
+			text-align: center;
+			font-family: "Montserrat";
+		}
+		#example {
+			background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQBAMAAADt3eJSAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAGUExURd/f3////zMjcGAAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAAUSURBVBjTYwABQSCglEENMxgYGAAynwRB8BEAgQAAAABJRU5ErkJggg==);
+			image-rendering: pixelated;
+			transform: scale(4);
+			margin: 96px;
+		}
+		#inputimage {
+			padding: 20px;
+			background-color: #DDD;
+			cursor: pointer;
+		}
+		p {
+			color: gray;
+		}
+	</style>
+	<title>mcSkinToJollyMod</title>
+</head>
+<body>
+	<h1>Required format of the skin file:</h1>
+	<img id="example" src="steve.png">
+	<p>64px/64px</p>
+	<h1>Input minecraft skin here:</h1>
+	<input id="inputimage" type="file" accept=".png" onchange="handleFileSelect(this)">
+	<h1>Output .zip file needs to be uploaded here:</h1>
+	<a href="//jollyworld.app/mod">jollyworld.app/mod</a>
+	<script type="text/javascript" src="main.js"></script>
+</body>
+</html>
