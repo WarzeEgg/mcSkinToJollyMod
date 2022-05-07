@@ -172,7 +172,7 @@ function drawSkin(img) {
 
 function addCount() {
 	imgcount ++;
-	if (imgcount === 58) {
+	if (imgcount === 56) {
 		zip.generateAsync({type:"blob"})
 		.then(function(content) {
 			saveAs(content, "jollymodmcskin" + Math.round(Math.random() * 100000) + ".zip");
