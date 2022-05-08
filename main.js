@@ -57,7 +57,36 @@ const skin_positions = [
 		]
 	}
 ]
-const added_assets = [
+const empty_assets = [
+	"jollymod/gore/chunks/billyjoel/Normal_Arm_Gore10000.png",
+	"jollymod/gore/chunks/billyjoel/Normal_Belly_Gore10000.png",
+	"jollymod/gore/chunks/billyjoel/Normal_Core_Gore10000.png",
+	"jollymod/gore/chunks/billyjoel/Normal_Core_Gore20000.png",
+	"jollymod/gore/chunks/billyjoel/Normal_Head_Gore10000.png",
+	"jollymod/gore/chunks/billyjoel/Normal_Head_Gore20000.png",
+	"jollymod/gore/chunks/billyjoel/Normal_Leg_Gore10000.png",
+	"jollymod/gore/chunks/billyjoel/Normal_Shoulder_Gore10000.png",
+	"jollymod/gore/chunks/billyjoel/Normal_Thigh_Gore10000.png",
+	"jollymod/gore/organs/Gore_Brain0000.png",
+	"jollymod/gore/organs/Gore_Intestine0000.png",
+	"jollymod/gore/organs/Gore_Liver0000.png",
+	"jollymod/gore/organs/Gore_LungLeft0000.png",
+	"jollymod/gore/organs/Gore_LungRight0000.png",
+	"jollymod/gore/organs/Gore_Meat10000.png",
+	"jollymod/gore/organs/Gore_Meat20000.png",
+	"jollymod/gore/organs/Gore_Meat30000.png",
+	"jollymod/gore/organs/Gore_Meat40000.png",
+	"jollymod/gore/organs/Gore_Meat50000.png",
+	"jollymod/gore/organs/Gore_Meat60000.png",
+	"jollymod/gore/organs/Gore_Stomach0000.png",
+	"jollymod/gore/skin/adult/Normal_Arm_Flesh0000.png",
+	"jollymod/gore/skin/adult/Normal_Belly_Flesh0000.png",
+	"jollymod/gore/skin/adult/Normal_Core_Flesh0000.png",
+	"jollymod/gore/skin/adult/Normal_Feet_Flesh0000.png",
+	"jollymod/gore/skin/adult/Normal_Hand_Flesh0000.png",
+	"jollymod/gore/skin/adult/Normal_Leg_Flesh0000.png",
+	"jollymod/gore/skin/adult/Normal_Shoulder_Flesh0000.png",
+	"jollymod/gore/skin/adult/Normal_Thigh_Flesh0000.png",
 	"jollymod/characters/billyjoel/Mouth_Idle0000.png",
 	"jollymod/characters/billyjoel/Mouth_Pain0000.png",
 	"jollymod/characters/billyjoel/Mouth_Special0000.png",
@@ -67,7 +96,11 @@ const added_assets = [
 	"jollymod/characters/billyjoel/Normal_Hand0000.png",
 	"jollymod/characters/billyjoel/Normal_Eye0000.png",
 	"jollymod/characters/billyjoel/Normal_Eye0000.png",
-	"jollymod/characters/billyjoel/Normal_Eye0000.png",
+	"jollymod/characters/billyjoel/Normal_Eye0000.png"
+	//"jollymod/vehicles/skateboard/SkateHelmet0000.png",
+	//"jollymod/vehicles/dirtbike/DirtBikeHelmet0000.png",
+]
+const added_assets = [
 	"jollymod/textures/Textures-Pack-Full0001.png",
 	"jollymod/textures/Textures-Pack-Full0002.png",
 	"jollymod/textures/Textures-Pack-Full0003.png",
@@ -106,41 +139,10 @@ const added_assets = [
 	"jollymod/textures/Textures-Pack-Full0054.png",
 	"jollymod/textures/Textures-Pack-Full0055.png",
 	"jollymod/textures/Textures-Pack-Full0056.png",
-	"jollymod/gore/chunks/billyjoel/Normal_Arm_Gore10000.png",
-	"jollymod/gore/chunks/billyjoel/Normal_Belly_Gore10000.png",
-	"jollymod/gore/chunks/billyjoel/Normal_Core_Gore10000.png",
-	"jollymod/gore/chunks/billyjoel/Normal_Core_Gore20000.png",
-	"jollymod/gore/chunks/billyjoel/Normal_Head_Gore10000.png",
-	"jollymod/gore/chunks/billyjoel/Normal_Head_Gore20000.png",
-	"jollymod/gore/chunks/billyjoel/Normal_Leg_Gore10000.png",
-	"jollymod/gore/chunks/billyjoel/Normal_Shoulder_Gore10000.png",
-	"jollymod/gore/chunks/billyjoel/Normal_Thigh_Gore10000.png",
-	"jollymod/gore/organs/Gore_Brain0000.png",
-	"jollymod/gore/organs/Gore_Intestine0000.png",
-	"jollymod/gore/organs/Gore_Liver0000.png",
-	"jollymod/gore/organs/Gore_LungLeft0000.png",
-	"jollymod/gore/organs/Gore_LungRight0000.png",
-	"jollymod/gore/organs/Gore_Meat10000.png",
-	"jollymod/gore/organs/Gore_Meat20000.png",
-	"jollymod/gore/organs/Gore_Meat30000.png",
-	"jollymod/gore/organs/Gore_Meat40000.png",
-	"jollymod/gore/organs/Gore_Meat50000.png",
-	"jollymod/gore/organs/Gore_Meat60000.png",
-	"jollymod/gore/organs/Gore_Stomach0000.png",
-	"jollymod/gore/skin/adult/Normal_Arm_Flesh0000.png",
-	"jollymod/gore/skin/adult/Normal_Belly_Flesh0000.png",
-	"jollymod/gore/skin/adult/Normal_Core_Flesh0000.png",
-	"jollymod/gore/skin/adult/Normal_Feet_Flesh0000.png",
-	"jollymod/gore/skin/adult/Normal_Hand_Flesh0000.png",
-	"jollymod/gore/skin/adult/Normal_Leg_Flesh0000.png",
-	"jollymod/gore/skin/adult/Normal_Shoulder_Flesh0000.png",
-	"jollymod/gore/skin/adult/Normal_Thigh_Flesh0000.png",
 	"jollymod/vehicles/foddycan/Hammer0000.png",
 	"jollymod/vehicles/foddycan/Hammer_20000.png",
 	"jollymod/vehicles/foddycan/Pot0000.png",
-	"jollymod/vehicles/foddycan/Pot_20000.png",
-	//"jollymod/vehicles/skateboard/SkateHelmet0000.png",
-	//"jollymod/vehicles/dirtbike/DirtBikeHelmet0000.png",
+	"jollymod/vehicles/foddycan/Pot_20000.png"
 ]
 function handleFileSelect(input) {
 	const reader = new FileReader()
@@ -195,8 +197,17 @@ function drawSkin(img) {
 			})
 		}
 	})
+	const emptycvs = document.createElement('canvas');
+	emptycvs.width = 1;
+	emptycvs.height = 1;
+	emptycvs.toBlob(function (blob) {
+		empty_assets.forEach((file) => {
+			zip.file(file, blob)
+			addCount();
+		})
+	})
 	zip.file("jollymod/theme/settings.json", `{
-	"doorColor": "#893700",
+	"doorColor": "#60432D",
 	"doorPreloaderColor": "#3d7d1e",
 	"doorlogoURL": "https://warzeegg.github.io/mcSkinToJollyMod/grassblock.png"
 }`)
