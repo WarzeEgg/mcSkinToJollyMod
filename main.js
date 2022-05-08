@@ -68,12 +68,44 @@ const added_assets = [
 	"jollymod/characters/billyjoel/Normal_Eye0000.png",
 	"jollymod/characters/billyjoel/Normal_Eye0000.png",
 	"jollymod/characters/billyjoel/Normal_Eye0000.png",
+	"jollymod/textures/Textures-Pack-Full0001.png",
+	"jollymod/textures/Textures-Pack-Full0002.png",
+	"jollymod/textures/Textures-Pack-Full0003.png",
+	"jollymod/textures/Textures-Pack-Full0004.png",
+	"jollymod/textures/Textures-Pack-Full0005.png",
+	"jollymod/textures/Textures-Pack-Full0006.png",
+	"jollymod/textures/Textures-Pack-Full0007.png",
+	"jollymod/textures/Textures-Pack-Full0008.png",
+	"jollymod/textures/Textures-Pack-Full0009.png",
+	"jollymod/textures/Textures-Pack-Full0011.png",
+	"jollymod/textures/Textures-Pack-Full0012.png",
+	"jollymod/textures/Textures-Pack-Full0013.png",
+	"jollymod/textures/Textures-Pack-Full0014.png",
+	"jollymod/textures/Textures-Pack-Full0015.png",
+	"jollymod/textures/Textures-Pack-Full0016.png",
+	"jollymod/textures/Textures-Pack-Full0022.png",
+	"jollymod/textures/Textures-Pack-Full0023.png",
+	"jollymod/textures/Textures-Pack-Full0024.png",
+	"jollymod/textures/Textures-Pack-Full0025.png",
 	"jollymod/textures/Textures-Pack-Full0038.png",
 	"jollymod/textures/Textures-Pack-Full0039.png",
 	"jollymod/textures/Textures-Pack-Full0040.png",
 	"jollymod/textures/Textures-Pack-Full0041.png",
 	"jollymod/textures/Textures-Pack-Full0042.png",
 	"jollymod/textures/Textures-Pack-Full0043.png",
+	"jollymod/textures/Textures-Pack-Full0044.png",
+	"jollymod/textures/Textures-Pack-Full0045.png",
+	"jollymod/textures/Textures-Pack-Full0046.png",
+	"jollymod/textures/Textures-Pack-Full0047.png",
+	"jollymod/textures/Textures-Pack-Full0048.png",
+	"jollymod/textures/Textures-Pack-Full0049.png",
+	"jollymod/textures/Textures-Pack-Full0050.png",
+	"jollymod/textures/Textures-Pack-Full0051.png",
+	"jollymod/textures/Textures-Pack-Full0052.png",
+	"jollymod/textures/Textures-Pack-Full0053.png",
+	"jollymod/textures/Textures-Pack-Full0054.png",
+	"jollymod/textures/Textures-Pack-Full0055.png",
+	"jollymod/textures/Textures-Pack-Full0056.png",
 	"jollymod/gore/chunks/billyjoel/Normal_Arm_Gore10000.png",
 	"jollymod/gore/chunks/billyjoel/Normal_Belly_Gore10000.png",
 	"jollymod/gore/chunks/billyjoel/Normal_Core_Gore10000.png",
@@ -172,7 +204,7 @@ function drawSkin(img) {
 
 function addCount() {
 	imgcount ++;
-	if (imgcount === 56) {
+	if (imgcount === 88) {
 		zip.generateAsync({type:"blob"})
 		.then(function(content) {
 			saveAs(content, "jollymodmcskin" + Math.round(Math.random() * 100000) + ".zip");
